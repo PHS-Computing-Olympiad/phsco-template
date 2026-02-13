@@ -1,20 +1,17 @@
 \documentclass[11pt]{article}
 \pagestyle{empty}
 
-$if(header-includes)$
-$for(header-includes)$
-$header-includes$
-$endfor$
-$endif$
+\usepackage{phsco}
 
 \usepackage[margin=1in]{geometry}
-\usepackage{fontspec}
 \usepackage{setspace}
 \usepackage{hyperref}
+\usepackage{subfiles}
+
 \setstretch{1.2}
 
 \begin{document}
 
-$body$
+\input{../template/statement.tex}
 
 \end{document}

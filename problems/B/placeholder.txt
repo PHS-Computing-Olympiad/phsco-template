@@ -1,1 +1,3 @@
 Place generator, validator, problem statements, and any solution files for this problem here.
+
+Note that statement.pdf is auto-compiled from statement.tex and should not be copied from the template folder.
