@@ -4,11 +4,9 @@
 
 This repository contains the necessary libraries and templates to manage the problem files for a new contest on Polygon/Codeforces.
 
-`bits/stdc++.h` is provided and recommended for usage in C++ code, mainly solution files.
+`testlib.h` is an inbuilt header on Polygon and is required for writing generator and validator files.
 
-`testlib.h` is an inbuilt header on Polygon and is practically required for writing generator and validator files.
-
-Place problem files in `problems/A/`, `problems/B/`, and so on. This should include the problem statement PDF, if applicable.
+Place problem files in `problems/A/`, `problems/B/`, and so on. This should include the problem statement `tex` and compiled `pdf`.
 
 `template/` contains example generator, solution, and validator files.
 
